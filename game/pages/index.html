@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Gabes Clicker Game</title>
+</head>
+
+<body>
+    <p>home page</p>
+
+    <form action="/add/" method="POST">
+        <div>
+            <button type="submit" name="addCoin">Increase Balance!</button>
+        </div>
+
+        <p>Balance: {{.Balance}}</p>
+    </form>
+
+    <form action="/upgrade-click/" method="POST">
+        <div>
+            <button type="submit" name="upClick">Upgrade Click!</button>
+        </div>
+    </form>
+
+
+</body>
+
